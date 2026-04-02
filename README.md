@@ -2,10 +2,16 @@
 
 Install list
 
-homebrew
-neovim
 git
 stow
-zsh
+
+neovim
+
+tmux
 
 
+## Neovim
+
+```
+
+```
