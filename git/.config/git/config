@@ -5,3 +5,17 @@
 [alias]
 	lg = log --oneline --graph --decorate --all
 	undo = reset HEAD~1 --mixed
+
+[core]
+	pager = delta
+
+[delta]
+	navigate = true
+	side-by-side = true
+	line-numbers = true
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default

@@ -19,6 +19,7 @@ zsh
 starship
 sheldon
 zoxide
+delta
 
 
 ## Neovim
