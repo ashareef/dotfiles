@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash
-stow git tmux zsh starship sheldon
+stow git tmux zsh starship sheldon alacritty
 ```
 
 Install list
@@ -22,6 +22,18 @@ zoxide
 delta
 fzf
 
+alacritty
+JetBrainsMono Nerd Font
+
+
+## Alacritty
+
+Download catppuccin mocha theme:
+
+```bash
+curl -o ~/.config/alacritty/catppuccin-mocha.toml \
+  https://raw.githubusercontent.com/catppuccin/alacritty/main/catppuccin-mocha.toml
+```
 
 ## Neovim
 
