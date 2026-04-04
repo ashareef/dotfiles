@@ -20,6 +20,7 @@ starship
 sheldon
 zoxide
 delta
+fzf
 
 
 ## Neovim
