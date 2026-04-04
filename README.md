@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash
-stow git tmux zsh starship
+stow git tmux zsh starship sheldon
 ```
 
 Install list
@@ -17,6 +17,7 @@ tmux
 
 zsh
 starship
+sheldon
 
 
 ## Neovim
