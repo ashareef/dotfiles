@@ -18,6 +18,7 @@ tmux
 zsh
 starship
 sheldon
+zoxide
 
 
 ## Neovim
