@@ -1,0 +1,7 @@
+[user]
+	name = Azher Shareef
+	email = aj.shareef@gmail.com
+
+[alias]
+	lg = log --oneline --graph --decorate --all
+	undo = reset HEAD~1 --mixed
