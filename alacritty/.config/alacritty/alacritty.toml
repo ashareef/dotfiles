@@ -22,3 +22,6 @@ decorations = "buttonless"
 
 [cursor]
 style = { shape = "Block", blinking = "On" }
+
+[shell]
+program = "/bin/zsh"
