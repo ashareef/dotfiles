@@ -25,3 +25,4 @@ style = { shape = "Block", blinking = "On" }
 
 [shell]
 program = "/bin/zsh"
+args = ["-c", "tmux new-session -A -s main"]
