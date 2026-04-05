@@ -11,30 +11,32 @@ stow stow
 Then stow everything else:
 
 ```bash
-stow git tmux zsh starship sheldon alacritty
+stow git tmux zsh starship alacritty
 ```
 
-Install list
+## Install list
 
-git
-stow
+- git
+- stow
+- neovim
+- tmux + [TPM](https://github.com/tmux-plugins/tpm) (plugins install automatically on first launch)
+- zsh
+- starship
+- zoxide
+- delta
+- fzf
+- rust (via rustup: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`, run after stow zsh — rustup appends to `~/.zshenv`)
+- alacritty (GUI — install on host OS, not inside a remote/container environment)
+- JetBrainsMono Nerd Font (install on host OS)
 
-neovim
+### zsh plugins (no plugin manager)
 
-tmux
+Clone directly into `~/.local/share/zsh/plugins/`:
 
-zsh
-starship
-sheldon
-zoxide
-delta
-fzf
-
-rust (via rustup: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`, run after stow zsh — rustup appends to `~/.zshenv`)
-
-alacritty
-JetBrainsMono Nerd Font
-
+```bash
+git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions ~/.local/share/zsh/plugins/zsh-autosuggestions
+git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting ~/.local/share/zsh/plugins/zsh-syntax-highlighting
+```
 
 ## Alacritty
 
